@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Unbounded&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.m-container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    height: 100vh;
+    width: 30vw;
+    margin: 0;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    width: 70vw;
+}
+
+.top {
+    height: 35vh;
+    background-color: grey;
+}
+
+.middle {
+    height: 30vh;
+    background-color: white;
+}
+
+.bottom {
+    height: 35vh;
+    background-color: grey;
+}
