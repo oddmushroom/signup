@@ -18,6 +18,38 @@ body {
     margin: 0;
 }
 
+.back-image {
+    height: 850rem;
+
+}
+
+.hojas {
+    position: relative;
+    height: 100vh;
+    width: 30vw;
+}
+
+.logo {
+    position: absolute;
+    width: 8vw;
+    height: 15vh;
+    
+}
+
+.logo-back{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 90%, 30%);
+    height: 25vh;
+    width: 30vw;
+    position: absolute;
+    top: 37.5vh;
+    bottom: 37.5vh;
+}
+
 .right-side {
     display: flex;
     flex-direction: column;
@@ -27,8 +59,16 @@ body {
 }
 
 .top {
+    padding-left: 3rem;
+    display: flex;
+    flex-wrap: 1;
     height: 35vh;
     background-color: rgb(236, 236, 236);
+}
+
+.top-heading {
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .middle {
@@ -72,4 +112,14 @@ li {
 a {
     text-decoration: none;
     color: green;
+}
+
+.mid-head {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+}
+
+input {
+    border-radius: 4px;
+    border:rgb(236, 236, 236) solid 2px;
 }
