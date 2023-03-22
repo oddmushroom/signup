@@ -12,7 +12,7 @@
 <body>
     <div class="m-container">
         <div class="left-side">
-            <div class="back-image">
+            <div class="back-image"> <!--HACER LA IMAGEN RESPONSIVE-->
                 <!--<img src="images/leaves.jpg" alt="leaves">-->
             </div>
         </div>
@@ -25,21 +25,57 @@
                 </h1>
             </div>
 
-            <div class="middle"><h1>Let's do this!</h1></div>
-                <div class="FORM">
-                    <form>
-                    <section>
-                        <label for="first-name" id="user-fname">First name</label><br>
-                        <input type="text" id="user-fname" name="first-name">
-                        <label for="last-name" id="user-lname">Last name</label>
-                        <input type="text" id="user-lname" name="last-name">
-                    </section>
-                    </form>
+<div class="middle"><h1>Let's do this!</h1>
+    <div class="FORM">
+        <form>
+                <div class="izq">
+                    <ul>
+                        <li>
+                            <label for="first-name" id="user-fname">FIRST NAME</label><br>
+                            <input type="text" id="user-fname" name="first-name">
+                        </li>
+                        <li>
+                            <label for="email" id="user-email">EMAIL</label><br>
+                            <input type="email" id="user-email" name="email">
+                        </li>
+                        <li>
+                            <label for="password" id="user-pass">PASSWORD</label><br>
+                            <input required type="password" id="user-pass" name="password">
+                        </li>
+                    </ul>
                 </div>
 
-            <div class="bottom"></div>
+                
+                <div class="der">
+                    <ul>
+                        <li>
+                            <label for="last-name" id="user-lname">LAST NAME</label><br>
+                            <input type="text" id="user-lname" name="last-name">
+                        </li>
+                        <li>
+                            <label for="phone" id="user-phone">PHONE NUMBER</label><br>
+                            <input type="tel" id="user-phone" name="phone">
+                        </li>
+                        <li>
+                            <label for="password2" id="user-confirmpass">CONFIRM PASSWORD</label><br>
+                            <input required type="password" id="user-confirmpass" name="password2">
+                        </li>
+                    </ul>
+                </div>
+        </form>
+    </div>
+</div>
+
+            <div class="bottom">
+                <button class="boton" type="submit">Create Account</button>
+
+                <p class="login">Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
 
+
+        <!--<label for="last-name" id="user-lname">LAST NAME</label>
+                        <input type="text" id="user-lname" name="last-name">-->
 
     </div>
 
